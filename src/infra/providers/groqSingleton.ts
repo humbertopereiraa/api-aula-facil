@@ -4,7 +4,7 @@ import { Groq } from 'groq-sdk';
  * Classe Singleton para a conexão com a Groq API.
  * Garante que apenas uma instância de 'Groq' seja criada e reutilizada.
  */
-export class GroqSingleton {
+export default class GroqSingleton {
   private static instance: Groq;
 
   private constructor() {

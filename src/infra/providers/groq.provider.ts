@@ -1,4 +1,4 @@
-import { GroqSingleton } from './GroqSingleton';
+import GroqSingleton from "./groqSingleton";
 
 export class GroqProvider {
   async gerarPlano(prompt: string): Promise<string> {
